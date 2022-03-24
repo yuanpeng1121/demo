@@ -1,0 +1,92 @@
+
+@import '~antd/dist/antd.css';
+.p{
+.warp{
+    .addLtd{
+        user-select:none;
+        height: 40px;
+        line-height: 40px;
+        cursor: pointer;
+        padding: 0 10px;
+        font-size: 14px;
+        color: #BDBDBD;
+        width: 150px;
+        span{
+            margin-right:5px;
+        }
+    }
+}
+.members{
+    .text-style{
+        font-size: 16px;
+        font-weight: bolder;
+        padding: 0px 15px;
+    }
+    .top{
+        height: 60px;
+        line-height: 60px;
+        border-bottom:1px solid #E8E8E8;
+        color: #BDBDBD;
+        font-size: 16px;
+        padding: 0 15px;
+    }
+    .status{
+        display: flex;
+        padding: 20px 15px;
+        justify-content:space-between;
+        .left{
+            padding: 30px 0;
+            p{
+                font-size: 16px;
+                font-weight: bolder;
+            }
+            span{
+                font-size: 14px;
+                color: #BDBDBD;
+                margin-right: 10px;
+            }
+            .left-icon{
+                .anticon-question-circle{
+                    cursor: pointer;
+                }
+            }
+        }
+        .right{
+            margin-right: 40px;
+            .right-Log{
+                border-radius:50%;
+                overflow: hidden;
+                background: white;
+                border: 1px solid #E8E8E8;
+                text-align: center;
+                width: 100px;
+                height: 100px;
+            }
+            p{
+                color: #5294AA;
+                text-align: center;
+                line-height: 100%;
+                margin-top: 10px;
+            }
+        
+        }
+    }
+}
+.ant-layout-content{
+    background: #fff;
+}
+.warp{
+    padding: 0 20px;
+}
+.ant-table-thead > tr > th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before{
+    background: none;
+}
+.ant-table-thead > tr > th{
+    background: white;
+}
+.ant-table-tbody > tr > td{
+    border: none;
+}
+
+
+}

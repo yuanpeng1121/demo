@@ -1,0 +1,32 @@
+@import '~antd/dist/antd.css';
+.warp{
+    .addLtd{
+        user-select:none;
+        height: 40px;
+        line-height: 40px;
+        cursor: pointer;
+        padding: 0 10px;
+        font-size: 14px;
+        color: #BDBDBD;
+        width: 150px;
+        span{
+            margin-right:5px;
+        }
+    }
+}
+.ant-layout-content{
+    background: #fff;
+}
+.warp{
+    padding: 0 20px;
+}
+.ant-table-thead > tr > th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before{
+    background: none;
+}
+.ant-table-thead > tr > th{
+    background: white;
+}
+.ant-table-tbody > tr > td{
+    border: none;
+}
+
